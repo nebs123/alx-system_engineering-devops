@@ -13,3 +13,7 @@
 11-directories_permissions - gives executable permissions for sub-directories of the current directory while regular files are unaffected
 12-directory_permissions - creates directory my_dir that has permission 751.
 13-change_group - change the group of file hello to school.
+100-change_owner_and_group - changes the owner and group of all files and directories to vincent and staff respectively.
+101-symbolic_link_permissions - script to change the ownership of symbol link file _hello 
+102-if_only - changes the ownership of file hello to betty only if guillame was the previous owner
+103-Star_Wars - script to play Star wars IV on the terminal
