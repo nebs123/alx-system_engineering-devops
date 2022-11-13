@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#This shell uses for loop to print "Best School" 10 times
+for i in {1..10};
+do
+    : $((i))
+    echo "Best School";
+done
