@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# prints files in directory without the number prefix
+for f in $( find -- * -print | cut -f 2 -d "-" );
+do
+    echo "$f";
+done
