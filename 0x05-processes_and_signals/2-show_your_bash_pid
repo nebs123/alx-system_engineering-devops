@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Print lines from ps which have bash in them
+# shellcheck disable=SC2009
+ps axuf | grep bash
